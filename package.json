@@ -1,0 +1,19 @@
+{
+  "name": "projeto1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon src/index.ts"
+  },
+  "author": "Roberto Vieira",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/validator": "^13.7.2"
+  },
+  "dependencies": {
+    "validator": "^13.7.0"
+  }
+}
